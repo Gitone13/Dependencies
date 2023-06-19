@@ -4,7 +4,7 @@ sudo apt update && upgrade -y
 
 https://github.com/Gitone13/Dependencies/blob/main/myanydesk.deb
 
-sudo dpkg --i myanydesk.deb
+sudo dpkg-i myanydesk.deb
  
 sudo rm myanydesk.deb
 
