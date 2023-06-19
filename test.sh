@@ -1,9 +1,7 @@
 #!/bin/bash
 read -p "enter your password"
 
-wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
-
-echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-s>
+https://github.com/Gitone13/Dependencies/blob/main/test_6.2.1-1_amd64.deb
 
 apt update
 
