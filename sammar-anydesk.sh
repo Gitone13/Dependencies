@@ -1,11 +1,11 @@
 #!/bin/bash
 
 sudo apt update && upgrade -y
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
+apt update
+apt install anydesk 
 
-wget -nv -O- https://github.com/Gitone13/Dependencies/blob/main/myanydesk.deb .sh | sh -
-
-sudo dpkg-i myanydesk.deb
- 
 sudo rm myanydesk.deb
 
 sudo apt --fix-broken install -y
