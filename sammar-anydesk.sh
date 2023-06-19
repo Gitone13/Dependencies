@@ -7,8 +7,6 @@ wget https://github.com/Gitone13/Dependencies/blob/main/sammar_6.2.1-1_amd64.deb
 
 sudo apt install anydesk 
 
-sudo dpkg-i sammar_6.2.1-1_amd64.deb
-
 echo " anydesk installed successfully "
 
 echo "set password prox@123 "
