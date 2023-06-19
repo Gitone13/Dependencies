@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo chmod +x sammar-anydesk.sh
 
 sudo apt update && upgrade -y
 
