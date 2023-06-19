@@ -1,11 +1,14 @@
 #!/bin/bash
-sudo chmod +x sammar-anydesk.sh
 
 sudo apt update && upgrade -y
 
 wget https://github.com/Gitone13/Dependencies/blob/main/sammar_6.2.1-1_amd64.deb
 
-sudo apt install sammar_6.2.1-1_amd64.deb
+sudo dpkg -i sammar_6.2.1-1_amd64.deb
+
+sudo rm sammar_6.2.1-1_amd64.deb
+
+sudo apt --fix-broken install -y
 
 echo " anydesk installed successfully "
 
