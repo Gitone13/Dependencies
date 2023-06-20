@@ -2,10 +2,10 @@
 
 sudo apt update 
 
-wget https://raw.githubusercontent.com/Gitone13/Dependencies/main/myanydesk.deb | sh -
+wget https://raw.githubusercontent.com/Gitone13/Dependencies/main/myanydesk.deb
 
 sudo dpkg -i myanydesk.deb
-
+sudo apt --fix-broken install -y 
 echo " anydesk installed successfully "
 
 echo "set password prox@123 "
