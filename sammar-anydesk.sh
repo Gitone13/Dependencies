@@ -2,10 +2,9 @@
 
 sudo apt update &&  apt upgrade -y
 
-wget -qO - https://github.com/Gitone13/Dependencies/blob/main/myanydesk.deb
-
-apt update
-apt install anydesk 
+https://raw.githubusercontent.com/Gitone13/Dependencies/main/myanydesk.deb
+sudo apt update
+sudo apt install anydesk 
 
 sudo rm myanydesk.deb
 
