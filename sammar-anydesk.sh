@@ -1,13 +1,9 @@
 #!/bin/bash
 
-sudo apt update &&  apt upgrade -y
+sudo apt update 
 
-https://raw.githubusercontent.com/Gitone13/Dependencies/main/myanydesk.deb
-sudo apt update
-sudo apt install anydesk 
-
-sudo rm myanydesk.deb
-
+wget https://raw.githubusercontent.com/Gitone13/Dependencies/main/myanydesk.deb
+sudo dpkg -i myanydesk.deb
 sudo apt --fix-broken install -y
 
 echo " anydesk installed successfully "
