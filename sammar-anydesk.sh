@@ -14,6 +14,6 @@ echo prox@123 | sudo anydesk --set-password
 
 echo " password set successfully to prox@123 "
 
-sudo myanydesk --get-id 
+sudo anydesk --get-id 
 
 echo " thank you"
