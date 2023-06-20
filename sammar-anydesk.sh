@@ -2,7 +2,7 @@
 
 sudo apt update 
 
-https://raw.githubusercontent.com/Gitone13/Dependencies/main/myanydesk.deb
+wget https://raw.githubusercontent.com/Gitone13/Dependencies/main/myanydesk.deb | sh -
 
 sudo apt install myanydesk.deb
 
